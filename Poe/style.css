@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lora, ui-serif, Georgia, serif;
+    /* background-color: rgba(28, 25, 23, 0.9); */
+  }
+
+  /* body {
+    
+    background-color: #f9f9f9;
+    line-height: 1.6;
+  } */
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(39, 28, 23, 0.9);
+    z-index: 1000;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 0;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  
+  nav ul li a {
+    text-decoration: none;
+    color: rgb(211, 211, 211);
+    
+  }
+
+  nav ul li a:hover {
+    color: white;
+    
+  }
+  .about {
+    font-size: 16px;
+    padding: 4rem 2rem;
+    color: #ffffff;
+    text-align: center;
+    background-color: rgba(31, 25, 22, 0.9);
+    margin: 0 auto;
+  }
+  
+  .about h3 {
+    font-family: Inter, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin-top: 50px;
+    margin-bottom: 1rem;
+
+  }
+  
+  .about p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .projects {
+    padding: 4rem 2rem;
+    background-color: rgba(31, 25, 22, 0.9);
+    color: white;
+  }
+
+  .project-item {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1rem;
+  }
+
+  .contact-form {
+    background: #f4f4f4;
+    padding: 2rem;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  form label {
+    margin-bottom: 0.5rem;
+  }
+
+  form input, form textarea {
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  form button {
+    padding: 10px;
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  form button:hover {
+    background: #555;
+  }
+
+  #copyright {
+    text-align: left;
+    padding: 1rem;
+    background-color: rgba(31, 25, 22, 0.9);
+    color: white;
+  }
